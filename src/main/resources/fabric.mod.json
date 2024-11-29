@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "packet-id-dumper",
+  "version": "${version}",
+  "name": "packet-id-dumper",
+  "description": "Used to dump packet id / name mappings on client / server startup",
+  "authors": [
+    "lennoxlotl"
+  ],
+  "contact": {
+    "homepage": "https://lennoxlotl.dev/",
+    "sources": "https://github.com/lennoxlotl/packet-id-dumper"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/packet-id-dumper/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.lennoxlotl.packet.PacketIdDumper"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.3",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+  }
+}
